@@ -27,7 +27,7 @@ body{
 
 .container{
    display: flex;
-   width: 100rem;
+   width: 90rem;
    height: 46rem;
    padding: 1rem;
 }
@@ -41,7 +41,7 @@ body{
 
 .content h1{
    color: var(--cor-h1-h2);
-   font-size: 3.5rem;
+   font-size: 3.2rem;
    font-family: "Inter", serif;
    font-weight: 700;
 }
