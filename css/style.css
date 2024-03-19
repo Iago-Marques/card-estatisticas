@@ -27,14 +27,14 @@ body{
 
 .container{
    display: flex;
-   width: 90rem;
+   width: 85rem;
    height: 46rem;
    padding: 1rem;
 }
 
 .content{
    background-color: var(--cor-content);
-   padding: 6rem 12rem 6rem 6rem;
+   padding: 6rem 8rem 6rem 6rem;
    border-radius: 10px 0 0 10px ;
    width: 60%;
 }
