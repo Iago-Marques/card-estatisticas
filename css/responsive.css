@@ -1,82 +1,66 @@
-@media (max-width: 950px){
+@media (max-width: 930px){
    .container{
-      flex-direction: column-reverse;
-      align-items: center;
-      justify-content: center;
+      width: 80rem;
+      height: 40rem;
    }
 
-   .content{
-      background-color: var(--cor-content);
-      margin: auto 0;
-      border-radius: 0 0 10px 10px ;
-      width: 50%;
-      padding: 0 0 5rem;
+   .margin-global{
+      margin: 4rem;
    }
 
    .content h1{
-      padding: 3rem 0;
-      text-align: center;
+      font-size: 2.5rem;
    }
 
    .content-p{
-      
-      text-align: center;
-      width: 38rem;
-      font-weight: 200;
-      font-family: "Lexend Deca" ;
-      line-height: 2.5rem;
-      margin: auto;
-      padding-bottom: 3rem;
+      font-size: 1.3rem;
    }
 
    .informs{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 4rem
+      gap: 3rem;
    }
-
-   .informs-text h2, .informs p{
-      text-align: center;
-   }
-   
-
-   .img-box{
-      width: 50%;
-      display: flex;
-      flex-grow: 1;
-      background-color: #6607a1;
-      border-radius: 10px 10px 0 0;
-   }
-
-   .img{
-      border-radius: 10px 10px 0 0;
-      opacity: 0.5;
-      display: flex;
-      width: 100%;
-   }
-
-   
 }
 
 @media(max-width: 600px){
 
+   .container{
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .content{
+      border-radius: 0 0 1.2rem 1.2rem;
+   }
+
    .content h1{
       font-size: 2rem;
+      text-align: center;
    }
 
    .content-p{
       
       font-size: 1.2rem;
-      width: 25rem;
+      text-align: center;
+   }
+
+   .informs{
+      flex-direction: column;
+      align-items: center;
    }
 
    .informs-text h2{
       font-size: 1.8rem;
+      text-align: center;
    }
 
    .informs p{
       font-size: 1rem;
+      text-align: center;
+   }
+
+   .img-box, .img{
+      border-radius: 10px 10px 0 0;
    }
 
 }
@@ -84,14 +68,22 @@
 @media(max-width: 375px){
 
    .content h1{
-      font-size: 2rem;
-      padding: 3rem 1rem;
+      font-size: 1.5rem;
+      padding-top: 2rem;
+   }
+
+   .margin-global{
+      margin: 1rem;
    }
 
    .content-p{
       
       font-size: 1.2rem;
-      width: 19rem;
+      line-height: 2rem;
+   }
+
+   .informs{
+      padding-bottom: 1rem;
    }
 
    .informs-text h2{
@@ -101,5 +93,4 @@
    .informs p{
       font-size: 1rem;
    }
-
 }

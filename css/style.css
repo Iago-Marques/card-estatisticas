@@ -32,16 +32,19 @@ body{
    padding: 1rem;
 }
 
+.margin-global{
+   margin: 5.5rem;
+}
+
 .content{
    background-color: var(--cor-content);
-   padding: 6rem 8rem 6rem 6rem;
    border-radius: 10px 0 0 10px ;
    max-width: 50%;
 }
 
 .content h1{
    color: var(--cor-h1-h2);
-   font-size: 3.2rem;
+   font-size: 3.3rem;
    font-family: "Inter", serif;
    font-weight: 700;
 }
@@ -53,7 +56,6 @@ body{
 .content-p{
    color: var(--cor-text-p);
    font-size: 1.5rem;
-   width: 35rem;
    font-weight: 200;
    font-family: "Lexend Deca" ;
    line-height: 2.5rem;
@@ -83,7 +85,7 @@ body{
 
 .img-box{
    width: 50%;
-   background-color: #6607a1;
+   background-color: #3d0361;
    border-radius: 0 10px 10px 0;
 }
 
