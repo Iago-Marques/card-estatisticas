@@ -69,6 +69,27 @@
 
 }
 
+@media(min-width: 376px) and (max-width: 590px){
+
+   .content{
+      padding: 2rem 0;
+   }
+
+   .margin-global{
+      margin: 1rem;
+   }
+
+   .content-p{
+   
+      width: 90%;
+      text-align: center;
+      margin: auto;
+      padding: 2rem 0;
+      
+   }
+
+}
+
 @media(max-width: 375px){
 
    .content h1{
