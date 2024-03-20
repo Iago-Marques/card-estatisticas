@@ -1,4 +1,4 @@
-@media (max-width: 1230px){
+@media (max-width: 950px){
    .container{
       flex-direction: column-reverse;
       align-items: center;
@@ -9,7 +9,7 @@
       background-color: var(--cor-content);
       margin: auto 0;
       border-radius: 0 0 10px 10px ;
-      width: 60%;
+      width: 50%;
       padding: 0 0 5rem;
    }
 
@@ -42,7 +42,7 @@
    
 
    .img-box{
-      width: 60%;
+      width: 50%;
       display: flex;
       flex-grow: 1;
       background-color: #6607a1;
@@ -62,13 +62,13 @@
 @media(max-width: 600px){
 
    .content h1{
-      font-size: 2.2rem;
+      font-size: 2rem;
    }
 
    .content-p{
       
       font-size: 1.2rem;
-      width: 28rem;
+      width: 25rem;
    }
 
    .informs-text h2{
