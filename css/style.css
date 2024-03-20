@@ -27,13 +27,13 @@ body{
 
 .container{
    display: flex;
-   width: 100rem;
+   width: 120rem;
    height: 45rem;
    padding: 1rem;
 }
 
 .margin-global{
-   margin: 5.5rem;
+   margin: 6.5rem;
 }
 
 .content{
@@ -44,7 +44,7 @@ body{
 
 .content h1{
    color: var(--cor-h1-h2);
-   font-size: 3.3rem;
+   font-size: 3.6rem;
    font-family: "Inter", serif;
    font-weight: 700;
 }
@@ -55,11 +55,13 @@ body{
 
 .content-p{
    color: var(--cor-text-p);
-   font-size: 1.5rem;
-   font-weight: 200;
+   font-size: 1.6rem;
+   font-weight: 400;
    font-family: "Lexend Deca" ;
    line-height: 2.5rem;
-   margin: 3rem 0 8rem 0;
+   margin: 3rem 0 7rem 0;
+   width: 85%;
+   
 }
 
 .informs{
